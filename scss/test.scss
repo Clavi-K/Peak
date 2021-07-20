@@ -1,0 +1,90 @@
+//VARS
+
+$redPeak: #a11600;
+$font: "Open Sans Condensed";
+$pad: 100%;
+
+html {
+    background-color: black;
+}
+
+header {
+    background-color: $redPeak;
+    font-family: $font;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1%;
+    img {
+        width: 15%;
+        padding-left: 7%;
+        padding-right: $pad / 25;
+        padding-bottom: 0.5%;
+        padding-top: 1%;
+        margin: 0;
+    }
+    h1 {
+        display: inline;
+        font-size: $pad + 30%;
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+    ul {
+        li {
+            p {
+                margin-top: 1%;
+            }
+        }
+    }
+}
+
+section {
+    background-color: black;
+    color: $redPeak;
+    font-family: $font;
+    div {
+        display: flex;
+        flex-direction: row;
+        padding-top: 1%;
+
+        p {
+            padding-left: 2%;
+        }
+    }
+    h2 {
+        padding-top: 0.5%;
+        padding-left: 1%;
+    }
+    img {
+        width: $pad - 20%;
+        padding-left: $pad / 4;
+    }
+    h3 {
+        text-align: end;
+        margin-right: 13%;
+    }
+}
+
+// BLOCKS
+
+.eric {
+    width: $pad / 2;
+    margin-bottom: 1%;
+    margin-right: $pad / 20;
+}
+
+// IDs
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: $pad / 10;
+    width: $pad / 2;
+    justify-content: space-evenly;
+}
+
+#item {
+    color: black;
+    font-size: $pad + 20%;
+}

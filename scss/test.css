@@ -1,0 +1,44 @@
+body {
+  background-color: red;
+}
+
+body h1 {
+  text-align: center;
+  color: black;
+}
+
+/*---test SCSS/CSS---*/
+/*---ANIDACION---*/
+ul {
+  list-style: none;
+}
+
+ul li {
+  text-decoration: none;
+}
+
+ul li a {
+  color: #a11600;
+  padding-bottom: 5%;
+}
+
+div .container {
+  background-color: #a11600;
+}
+
+button {
+  border: solid #a11600 5%;
+}
+
+/*---BEM---*/
+/*---BLOQUE / padre---*/
+/*---ELEMENT / hijo--- (__)*/
+.block1__blockson {
+  /*estilos*/
+}
+
+/*---MODIFIER / modificador--- (--)*/
+.block1__blockson--modifier {
+  /*estilos*/
+}
+/*# sourceMappingURL=test.css.map */

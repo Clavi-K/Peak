@@ -195,6 +195,29 @@ fieldset {
         flex-direction: column;
         margin-bottom: 3%;
     }
+
+    header img {
+        width: 20%;
+        height: 20%;
+        padding-top: 3%;
+    }
+
+    header h1 {
+        font-size: 95%;
+        margin-top: 5%;
+    }
+
+    /*---IDs---*/
+
+    #menu {
+        font-size: 64%;
+    }
+
+    footer img {
+        width: 4%;
+        height: 4%;
+    }
+
 }
 
 /*---TRANSICIONES---*/

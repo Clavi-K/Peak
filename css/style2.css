@@ -189,12 +189,11 @@ fieldset {
 
 /*---QUERY---*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     nav ul, nav ul li a {
         display: flex;
         flex-direction: column;
         margin-bottom: 3%;
-        -ms-flex-align: center;
     }
 
     header img {
@@ -209,13 +208,17 @@ fieldset {
     }
 
     header ul li p {
-        font-size: 0%;
+        display: none;
     }
 
     /*---IDs---*/
 
     #menu {
         font-size: 70%;
+    }
+
+    footer {
+        display: none;
     }
 
 }
@@ -249,10 +252,9 @@ fieldset {
 #menu {
     display: flex;
     flex-direction: row;
-    align-items: center;
     padding-left: 10%;
     width: 50%;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
 }
 
 #item {

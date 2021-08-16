@@ -88,3 +88,62 @@ section {
     color: black;
     font-size: $pad + 20%;
 }
+
+//QUERY
+
+@media only screen and (max-width: 600px) {
+    nav ul,
+    nav ul li a {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3%;
+    }
+
+    header img {
+        width: 20%;
+        height: 20%;
+        padding-top: 3%;
+    }
+
+    header h1 {
+        font-size: 95%;
+        margin-top: 5%;
+    }
+
+    header ul li p {
+        display: none;
+    }
+
+    section img {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    section div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section h3 {
+        text-align: center;
+        padding-top: 0.5%;
+        margin-left: 13%;
+    }
+
+    /*---CLASES---*/
+
+    .eric {
+        width: 60%;
+        height: 60%;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+
+    /*---IDs---*/
+
+    #menu {
+        font-size: 70%;
+    }
+}

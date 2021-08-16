@@ -112,23 +112,31 @@ section div select {
     border-color: #a11600;
 }
 
-footer {
-    padding-top: 0.7%;
-    background-color: #a11600;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+div h4 {
+    margin-top: 3%;
 }
 
-footer img {
+div ul {
+    margin-left: 3%;
+    list-style: none;
     display: flex;
-    margin-left: 1%;
-    margin-right: 1%;
-    padding-bottom: 0.3%;
-    width: 2.5%;
-    height: 2.5%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+div ul li {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+
+div ul li img{
+    width: 30%;
+}
+
+div ul li p {
+    margin-top: 5%;
+    margin-left: 3%;
 }
 
 fieldset {
@@ -150,6 +158,11 @@ fieldset {
     padding: 1vh;
     border-color: #a11600;
     text-decoration: none;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
 }
 
 /*---GRID---*/
@@ -211,14 +224,45 @@ fieldset {
         display: none;
     }
 
+    div h4 {
+        margin-top: 3%;
+    }
+    
+    div ul {
+        margin-left: 3%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    div ul li {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    div ul li img{
+        width: 12%;
+        height: 12%;
+        margin-top: 2%;
+    }
+
+    h2, h3 {
+        font-size: 95%;
+    }
+
+    /*---CLASES---*/
+
+    .mediaQ {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+ 
     /*---IDs---*/
 
     #menu {
         font-size: 70%;
-    }
-
-    footer {
-        display: none;
     }
 
 }
@@ -255,6 +299,7 @@ fieldset {
     padding-left: 10%;
     width: 50%;
     justify-content:space-evenly;
+    padding-top: 1%;
 }
 
 #item {
